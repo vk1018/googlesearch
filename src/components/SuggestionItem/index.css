@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.item-con {
+  display: flex;
+  justify-content: space-between;
+}
+.del-btn {
+  border: 0;
+  background: none;
+}
+.arrow {
+  height: 20px;
+}

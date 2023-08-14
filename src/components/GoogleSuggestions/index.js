@@ -5,7 +5,7 @@ import SuggestionItem from '../SuggestionItem'
 import './index.css'
 
 class GoogleSuggestions extends Component {
-  state: {googleSearch: ''}
+  state = {googleSearch: ''}
 
   searchUserInput = event => {
     this.setState({googleSearch: event.target.value})
